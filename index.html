@@ -76,7 +76,7 @@
 
       table td {
         width: 25%
-        padding: 15px 0;
+        padding 15px 0;
 
       }
 
@@ -87,6 +87,25 @@
 
       }
 
+      .menutab {
+        background-color: wheat;
+      }
+
+      .ggmap {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+      }
+ 
+      .ggmap iframe,.ggmap object,.ggmap embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
     
     </style>
 
@@ -229,9 +248,29 @@
         </div>
       </div>
 
-      <div class="menutab">
+      <div class="menutab py-5">
         <div class="container">
-          
+          <h3 class="mb-5">店舗のご案内</h2>  
+          <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#ios" class="nav-link active" data-toggle="tab">営業のご案内</a></li>
+            <li class="nav-item"><a href="#android" class="nav-link" data-toggle="tab">アクセス</a></li>
+          </ul>
+          <div class="tab-content py-4">
+              <div id="openinfo" class="tab-pane active">
+                <p>営業時間：9時00分～18時00分（日曜は17時30分まで）</p>
+                <p>店休日：毎週月曜日（祝日の場合は翌日）、年始年末（12月29日～1月1日）</p>
+                <p>※臨時休業日については別途お知らせいたします。</p>
+              </div>
+              <div id="access" class="tab-pane">
+                <p>〒810-0001 福岡県福岡市中央区天神５丁目４−２０</p>
+
+                <div class="ggmap">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d393.3744580977314!2d130.39770825266785!3d33.59576050222699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541918c570348d1%3A0xd0828e25d1e71dbe!2z44CSODEwLTAwMDEg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSp56We77yV5LiB55uu77yU4oiS77yS77yQ!5e0!3m2!1sja!2sjp!4v1573630866258!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+  
+              </div>
+            </div>
         </div>
       </div>
 
