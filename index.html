@@ -14,11 +14,25 @@
       .jumbotron {
         background:url(img/showcase1_1920.jpg)
         center no-repeat; background-size: cover;
+        color:white;
+        font-weight: bold;
+
+      }
+
+      .jumbo-text {
+        font-family:'Times New Roman', Times, serif
       }
 
 
+      .navbar-brand {
+        font-weight:  bold;
+        font-family: "Times New Roman";
+      }
 
-
+      .footer {
+        height:200px;
+      
+      }
 
 
 
@@ -30,25 +44,34 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark text-center">
-        <a href="#" class="navbar-brand">patisserie Mon Chat</a>
-        <button class="navbar-toggler" type="button"
+
+      
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark text-center">
+
+          <a href="#" class="navbar-brand">patisserie Mon Chat</a>
+          
+          <button class="navbar-toggler" type="button"
             data-toggle="collapse"
             data-target="#navmenu1"
             aria-controls="navmenu1"
             aria-expanded="false"
             aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navmenu1">
-          <div class="navbar-nav float-right">
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Menu</a>
-            <a class="nav-item nav-link" href="#">Access</a>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navmenu1">
+            <div class="navbar-nav mr-auto">
+              <a class="nav-item nav-link" href="#">Home</a>
+              <a class="nav-item nav-link" href="#">About</a>
+              <a  class="nav-item nav-link" href="#">Menu</a>
+              <a class="nav-item nav-link" href="#">Access</a>
+            </div>
           </div>
-        </div>
-      </nav>
+
+        </nav>
+
+
     </header>
 
 
@@ -61,11 +84,11 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4　text-white">永久の幻想を求めて</h1>
-        <p class="lead text-white">私たちのお菓子は、長年にわたり多くの職人によって培われ継承されてきた伝統的な製法技術を大切にしながら、新たな創造性を加え究極の幻想を常に追い求めています。</p>
-        <hr class="my-4 text-white">
-        <p class="text-white">It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <h1 class="jumbo-text display-4"><strong>C'est sucre!</strong></h1>
+        <p class="lead">私たちの洋菓子は、多くの職人によって長年培われ継承されてきた伝統的な製法技術を大切にしながら、新たな創造性を加え”食の喜び”を常に追い求めています。</p>
+        <hr class="my-4">
+        <p>Webサイトを見て御来店いただいた方にキャンディをプレゼント中！</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">詳しく見る</a>
       </div>
     </div>
 
