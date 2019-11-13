@@ -43,10 +43,47 @@
 
       .info {
         text-align: center;
+        background-color: wheat;
       }
 
       .campaign {
         width: 100%;
+      
+      }
+
+      img {
+        width:100%;
+      }
+
+      .lace {
+        width: 100%;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0px;
+        width:100%;
+      }
+
+      table tr {
+        border-bottom: solid 1px #eee;
+        cursor: pointer;
+      }
+
+      table tr:hover {
+        background-color : #ffffe0;
+      }
+
+      table td {
+        width: 25%
+        padding: 15px 0;
+
+      }
+
+      .ranking {
+        text-align:center;
+        background:url(img/pattern_mint.png);
+        background-repeat:repeat;
 
       }
 
@@ -109,6 +146,8 @@
 
     <main>
       <div class="info">
+        <img class="lace" src="img/lace.png">
+
         <div class="container">
           <div class="row">
 
@@ -125,6 +164,9 @@
                   <tr>
                     <td>10/1 オータムフェア開催のご案内</td>
                   </tr>
+                  <tr>
+                    <td>9/1 ベリー特集の記事を更新しました。</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -133,19 +175,19 @@
               <h4 class="text-center">キャンペーン・イベント</h4>
               <div class="row">
                 <div class="col-xs-6 col-lg-4">
-                  <img class="campaign" src="img/xmascake_1920.jpg">
+                  <img class="campaign shadow rounded" src="img/xmascake_1920.jpg">
                   <h6>クリスマスご予約</h6>
                 </div>
                 <div class="col-xs-6 col-lg-4">
-                  <img class="campaign" src="img/chestnut_1920.jpg">
+                  <img class="campaign shadow rounded" src="img/chestnut_1920.jpg">
                   <h6>栗特集</h6>
                 </div>
                 <div class="col-xs-6 col-lg-4">
-                  <img class="campaign" src="img/autumn_1920.jpg">
+                  <img class="campaign shadow rounded" src="img/autumn_1920.jpg">
                   <h6>オータムフェア</h6>
                 </div>
                 <div class="col-xs-6 col-lg-4">
-                  <img class="campaign" src="img/berrybg_1920.jpg">
+                  <img class="campaign shadow rounded" src="img/berrybg_1920.jpg">
                   <h6>ベリー特集</h6>
                 </div>
               </div>
@@ -155,14 +197,44 @@
           </div>
           
         </div>
+        <img class="lace" src="img/lace.png">
       </div>
       
+      <div class="ranking">
+        <h2>当店の人気ケーキランキング</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <img src="img/berrycake1_1920.jpg">
+              <h5>1位　ベリーケーキ</h5>
+            </div>
+            <div class="col-lg-5">
+              <img src="img/chocolate_1920.jpg">
+              <h5>2位　チョコレートケーキ</h5>
+            </div>
+            <div class="col-lg-4">
+              <img src="img/blueberry_1920.jpg">
+              <h5>3位　ブルーベリータルト</h5>
+            </div>
+            <div class="col-lg-4">
+              <img src="img/montblanc_1920.jpg">
+              <h5>4位　モンブラン</h5>
+            </div>
+            <div class="col-lg-4">
+              <img src="img/cheesecake_1920.jpg">
+              <h5>5位　チーズケーキ</h5>
+            </div>
+          </div>
 
-
-      <div class="container">
-
-
+        </div>
       </div>
+
+      <div class="menutab">
+        <div class="container">
+          
+        </div>
+      </div>
+
 
 
 
